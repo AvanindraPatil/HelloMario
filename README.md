@@ -1,10 +1,11 @@
+
 # HelloMario
 
 **Super Mario 64's Mario in Hello Neighbor.** SM64's own code (through [libsm64](https://github.com/libsm64/libsm64))
 runs his physics, moves, animations, model and sounds, while he runs through the Neighbor's house. The Neighbor can
 still catch him, and doors, ladders, items and cutscenes keep working.
 
-<!-- screenshot here -->
+<img width="1280" height="720" alt="phOGAqdt-7U-HD" src="https://github.com/user-attachments/assets/69c5e3cc-ce67-4955-baa2-f497a772954c" />
 
 > Unofficial fan project, not affiliated with Nintendo, tinyBuild or Dynamic Pixels. The download contains **no ROM
 > and no Nintendo assets**: you give the installer **your own Super Mario 64 (USA) ROM**, and Mario's model, textures,
@@ -14,8 +15,8 @@ still catch him, and doors, ladders, items and cutscenes keep working.
 
 - **Real SM64 Mario**: running, jumping (double, triple, long, wall kick), punches and kicks, crouch, ground pound, SM64's voice and
   sound effects.
-- **He plays the house**: doors, ladders, windows (punch or kick them), picking up and throwing items, being caught
-  by the Neighbor, and Mario stands in for the kid in cutscenes.
+- **He can interact**: doors, ladders, windows (punch or kick them), picking up and throwing items, being caught
+  by the Neighbor, and Mario replaces Nicky in the cutscenes.
 - **Extras**: lit Bob-ombs to carry and throw (F3), metal cap (F4), wing cap and flight (F5).
 
 ## Requirements
@@ -71,8 +72,6 @@ and `installed.txt` lists everything that was added.
 - **Antivirus / SmartScreen warnings**: UE4SS loads as a `dwmapi.dll` next to the game, and the mod is a DLL that draws
   into the game's frame. Check that your download matches the SHA-256 on the release page
   (PowerShell: `Get-FileHash HelloMario-1.0.0.zip`).
-- **Bug reports**: please attach these logs from `<Hello Neighbor>\HelloNeighbor\Binaries\Win64`: `hnmario_lua.log`,
-  `ue4ss\UE4SS.log` and `ue4ss\Mods\HnMarioNative\dlls\hnmario.log`.
 
 Single-player only. Other Hello Neighbor mods installed the same way (HelloSonic, HelloPortal ...) were not made to run
 together with this one.
